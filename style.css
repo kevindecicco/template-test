@@ -32,7 +32,7 @@ body {
 }
 
 .long-quote {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .fa-quote-left {
@@ -80,6 +80,24 @@ button:active {
 
 .fa-twitter {
   font-size: 1.5rem;
+}
+/* Laoder */
+.loader {
+  border: 16px solid purple; /* Light grey */
+  border-top: 16px solid greenyellow; /* dark grey */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Media Query: Tablet or Smaller */
